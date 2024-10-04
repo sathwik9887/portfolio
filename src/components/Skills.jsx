@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import HTML from "../assets/html.png";
 import Css3 from "../assets/Css.png";
 import JS from "../assets/js.png";
-import TW from "../assets/tailwind.png";
+import TW from "../assets/Tailwind.png";
 import Next from "../assets/next.png";
 import Php from "../assets/php.png";
 import Codeigniter from "../assets/codeigniter.png";
