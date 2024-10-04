@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HTML from "../assets/html.png";
-import cssLogo from "../assets/Css.png";
+import Css3 from "../assets/Css.png";
 import JS from "../assets/js.png";
 import TW from "../assets/tailwind.png";
 import Next from "../assets/next.png";
@@ -21,7 +21,7 @@ import Logo from "../assets/react.png";
 const Skills = () => {
   const skills = [
     { id: 1, icon: HTML, name: "HTML" },
-    { id: 2, icon: cssLogo, name: "cssLogo" },
+    { id: 2, icon: Css3, name: "Css3" },
     { id: 3, icon: JS, name: "JavaScript" },
     { id: 4, icon: TW, name: "Tailwind CSS" },
     { id: 5, icon: Next, name: "Next.js" },
