@@ -66,7 +66,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="sticky right-0 top-0 lg:px-32 md:px-28 px-5 flex justify-between items-center space-x-10 p-5 bg-gradient-to-r from-gray-300 to-red-400 shadow-xl z-50">
+    <nav className="sticky right-0 top-0 lg:px-32 md:px-16 px-5 flex justify-between items-center space-x-10 p-5 bg-gradient-to-r from-gray-300 to-red-400 shadow-xl z-50">
       <img src={Logo} alt="Logo" width={50} />
       <ul className="lg:flex space-x-4 hidden">
         {menus.map((menu, index) => (
