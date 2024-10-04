@@ -61,7 +61,7 @@ const Blogs = () => {
           {blogs.map((blog) => (
             <motion.div
               key={blog.id}
-              className="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300  hover:shadow-2xl"
+              className="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300  hover:shadow-2xl lg:mt-0 mt-10"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: blog.id * 0.1 }}

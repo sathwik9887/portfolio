@@ -117,7 +117,7 @@ const Navbar = () => {
                 key={index}
                 className="text-black cursor-pointer text-2xl font-lora hover:text-white"
                 onClick={() => {
-                  scrollToSection(index);
+                  scrollToSection(menu);
                   setIsNavOpen(false);
                 }}
               >

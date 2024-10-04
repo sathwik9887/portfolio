@@ -19,7 +19,7 @@ const Contact = () => {
         id="Contact"
       >
         <motion.div
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-10 text-center drop-shadow-lg"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
           initial="hidden"
           animate="visible"
           variants={flipVariant}

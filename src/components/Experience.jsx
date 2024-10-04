@@ -38,7 +38,7 @@ const Experience = () => {
         id="Experience"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-10 text-center drop-shadow-lg"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -50,7 +50,7 @@ const Experience = () => {
           {experienceData.map((experience, index) => (
             <motion.div
               key={index}
-              className="mb-10 ml-8"
+              className="mb-10 ml-8 "
               initial="hidden"
               animate="visible"
               variants={flipVariant}

@@ -51,7 +51,7 @@ const Certifications = () => {
           {certificationsData.map((certification, index) => (
             <motion.div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-200 hover:shadow-2xl"
+              className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-200 hover:shadow-2xl lg:mt-0 mt-10"
               initial="hidden"
               animate="visible"
               variants={flipVariant}

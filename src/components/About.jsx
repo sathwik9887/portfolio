@@ -43,7 +43,7 @@ const About = () => {
             {about.map((item, index) => (
               <motion.div
                 key={item.id}
-                className="rounded-lg border border-transparent px-10 py-12 flex flex-col items-center bg-red-200 shadow-lg transition-transform duration-300 hover:ease-in hover:scale-105 hover:border-red-600 hover:duration-200"
+                className="rounded-lg border border-transparent px-10 py-12 flex flex-col items-center bg-red-200 shadow-lg transition-transform duration-300 hover:ease-in hover:scale-105 hover:border-red-600 hover:duration-200 lg:mt-0 mt-10"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 variants={flipVariant}

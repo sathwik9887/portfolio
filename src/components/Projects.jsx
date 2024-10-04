@@ -49,7 +49,7 @@ const Projects = () => {
         id="Projects"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -57,7 +57,7 @@ const Projects = () => {
           Projects
         </motion.h2>
 
-        <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-10 ">
           {displayedProjects.map((project, index) => (
             <motion.div
               key={index}
