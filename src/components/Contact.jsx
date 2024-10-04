@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div className="bg-gradient-to-r from-gray-300 to-red-400 flex flex-col border-t min-h-screen pb-10">
       <section
-        className="lg:px-32 md:px-16 px-5 lg:mt-20 md:mt-14 mt-5"
+        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-10"
         id="Contact"
       >
         <motion.div
@@ -27,7 +27,7 @@ const Contact = () => {
           Contact
         </motion.div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center border bg-white shadow-lg rounded-lg p-8 md:p-12 mt-10">
+        <div className="flex flex-col md:flex-row justify-between items-center border bg-white shadow-lg rounded-lg p-8 md:p-12 lg:mt-0 mt-20">
           <motion.div
             className="md:w-1/2 mb-8 md:mb-0 w-full"
             initial="hidden"

@@ -13,10 +13,26 @@ const flipVariant = {
 };
 
 const socialLinks = [
-  { href: "https://github.com", icon: <FaGithub />, label: "Github" },
-  { href: "https://linkedin.com", icon: <FaLinkedin />, label: "LinkedIn" },
-  { href: "https://instagram.com", icon: <FaInstagram />, label: "Instagram" },
-  { href: "https://whatsapp.com", icon: <FaWhatsapp />, label: "Whatsapp" },
+  {
+    href: "https://github.com/sathwik9887/",
+    icon: <FaGithub />,
+    label: "Github",
+  },
+  {
+    href: "www.linkedin.com/in/sathwik-nayak",
+    icon: <FaLinkedin />,
+    label: "LinkedIn",
+  },
+  {
+    href: "https://www.instagram.com/sathwik.nayak_/",
+    icon: <FaInstagram />,
+    label: "Instagram",
+  },
+  {
+    href: "https://wa.me/919886561734",
+    icon: <FaWhatsapp />,
+    label: "Whatsapp",
+  },
 ];
 
 const Footer = () => (
