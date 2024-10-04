@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { MdFileDownload } from "react-icons/md";
-import Pic from "../assets/Pic.png";
 
 const Hero = () => {
   const flipVariant = {
@@ -15,10 +14,10 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen flex flex-col pb-10 border-t">
+    <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen md:min-h-0 flex flex-col pb-10 border-t">
       <section className="lg:px-32 md:px-16 px-5 mt-10" id="Home">
         <motion.div
-          className="font-lora lg:text-7xl md:text-6xl text-4xl lg:text-end md:text-center text-right pb-10  text-gray-300  drop-shadow-lg blur-sm"
+          className="font-lora lg:text-7xl md:text-6xl text-4xl lg:text-end md:text-center text-right pb-10  text-gray-300  drop-shadow-lg filter blur-[2.5px] brightness-95"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -80,7 +79,7 @@ const Hero = () => {
               </motion.div>
             </div>
             <motion.div
-              className="font-lora lg:text-7xl md:text-6xl text-4xl lg:text-end md:text-center text-right  text-gray-300  drop-shadow-lg blur-sm"
+              className="font-lora lg:text-7xl md:text-6xl text-4xl lg:text-end md:text-center text-right  text-gray-300  drop-shadow-lg filter blur-[2.5px] brightness-95"
               initial="hidden"
               animate="visible"
               variants={flipVariant}
@@ -90,7 +89,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.img
-            src={Pic}
+            src="https://firebasestorage.googleapis.com/v0/b/hello-2ba10.appspot.com/o/Pic.png?alt=media&token=4975300b-f7e4-47bc-92c0-6536b0cdead0"
             alt="Pic"
             width={350}
             className="object-cover object-center  rounded-l-full rounded-r-full  mx-auto  transition-transform duration-300 ease-in-out transform hover:scale-110"

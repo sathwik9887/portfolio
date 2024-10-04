@@ -13,7 +13,7 @@ const flipVariant = {
 
 const Contact = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-red-400 flex flex-col border-t min-h-screen pb-10">
+    <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen md:min-h-0 flex flex-col pb-10 border-t">
       <section
         className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-10"
         id="Contact"

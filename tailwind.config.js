@@ -16,6 +16,9 @@ module.exports = {
           ringColor: ["focus"],
         },
       },
+      blur: {
+        tiny: "1px",
+      },
     },
   },
   plugins: [],
