@@ -51,7 +51,7 @@ const Navbar = () => {
     {
       id: 2,
       icon: <FaLinkedin />,
-      link: "www.linkedin.com/in/sathwik-nayak",
+      link: "https://www.linkedin.com/in/sathwik-nayak-a188ab131/",
     },
     {
       id: 3,
