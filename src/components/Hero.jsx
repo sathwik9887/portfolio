@@ -28,13 +28,13 @@ const Hero = () => {
 
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 space-y-10 lg:space-y-0 md:space-y-10">
           <motion.div
-            className="font-lora lg:text-5xl md:text-3xl text-xl text-black drop-shadow-lg"
+            className="font-lora lg:text-5xl md:text-3xl text-2xl text-black drop-shadow-lg"
             initial="hidden"
             animate="visible"
             variants={flipVariant}
           >
             Hello there,{" "}
-            <span className="font-lora lg:text-5xl md:text-3xl text-xl text-white drop-shadow-lg">
+            <span className="font-lora lg:text-5xl md:text-3xl text-2xl text-white drop-shadow-lg">
               I'm Sathwik
             </span>
             <motion.p

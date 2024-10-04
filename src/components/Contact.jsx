@@ -19,7 +19,7 @@ const Contact = () => {
         id="Contact"
       >
         <motion.div
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -29,7 +29,7 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center border bg-white shadow-lg rounded-lg p-8 md:p-12 mt-10">
           <motion.div
-            className="md:w-1/2 mb-8 md:mb-0"
+            className="md:w-1/2 mb-8 md:mb-0 w-full"
             initial="hidden"
             animate="visible"
             variants={flipVariant}
@@ -40,7 +40,7 @@ const Contact = () => {
 
             <form
               className="space-y-6"
-              action="https://formspree.io/f/mpwagdbj"
+              action="https://usebasin.com/f/7c3fdce34b27"
               method="POST"
             >
               <div>
@@ -56,6 +56,21 @@ const Contact = () => {
                   name="name"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400"
                   placeholder="Enter your name"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-gray-700 font-medium mb-2"
+                >
+                  Mobile Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400"
+                  placeholder="Enter your Mobile Number"
                 />
               </div>
 
