@@ -33,8 +33,8 @@ const Footer = () => (
           animate="visible"
           variants={flipVariant}
         >
-          <p className="text-base text-black font-lora">
-            Designed and Developed with ❤️ By Sathwik Nayak.
+          <p className="text-sm text-black font-lora text-center md:text-left mb-2">
+            Crafting digital experiences with passion.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ const Footer = () => (
         variants={flipVariant}
       >
         <p className="text-sm text-black font-lora text-center md:text-left mb-2">
-          Crafting digital experiences with passion.
+          Designed and Developed with ❤️ By Sathwik Nayak.
         </p>
         <p className="text-sm text-black font-lora text-center md:text-left">
           &copy; {new Date().getFullYear()} Sathwik Nayak. All rights reserved.
