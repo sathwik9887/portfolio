@@ -51,11 +51,11 @@ const Skills = () => {
   return (
     <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen md:min-h-0 flex flex-col pb-10 border-t">
       <section
-        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-10"
+        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-5"
         id="Skills"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -65,7 +65,7 @@ const Skills = () => {
         <div className="grid lg:grid-cols-6 md:grid-cols-4 grid-cols-3 gap-10">
           {skills.map((skill, index) => (
             <motion.div
-              className="flex justify-center items-center drop-shadow-md"
+              className="flex justify-center items-center drop-shadow-md lg:mt-0 mt-10"
               key={index}
               initial="hidden"
               animate="visible"

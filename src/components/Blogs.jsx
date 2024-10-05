@@ -44,13 +44,13 @@ const Blogs = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen md:min-h-0 flex flex-col pb-10 border-t">
+    <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen flex flex-col border-t pb-10 overflow-hidden md:min-h-0">
       <section
-        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-10"
+        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-5"
         id="Blogs"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-20 text-center drop-shadow-lg"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -61,7 +61,7 @@ const Blogs = () => {
           {blogs.map((blog) => (
             <motion.div
               key={blog.id}
-              className="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300  hover:shadow-2xl lg:mt-0 mt-10"
+              className="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300  hover:shadow-2xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: blog.id * 0.1 }}

@@ -21,11 +21,11 @@ const About = () => {
   return (
     <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen flex flex-col border-t pb-10 overflow-hidden md:min-h-0">
       <section
-        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-10"
+        className="lg:px-32 md:px-10 px-5 lg:mt-20 md:mt-14 mt-5"
         id="About"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 md:mb-16 mb-10 text-center drop-shadow-lg"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-20 text-center drop-shadow-lg"
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -43,7 +43,7 @@ const About = () => {
             {about.map((item, index) => (
               <motion.div
                 key={item.id}
-                className="rounded-lg border border-transparent px-10 py-12 flex flex-col items-center bg-red-200 shadow-lg transition-transform duration-300 hover:ease-in hover:scale-105 hover:border-red-600 hover:duration-200 lg:mt-0 mt-10"
+                className="rounded-lg border border-transparent px-10 py-12 flex flex-col items-center bg-red-200 shadow-lg transition-transform duration-300 hover:ease-in hover:scale-105 hover:border-red-600 hover:duration-200  "
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 variants={flipVariant}

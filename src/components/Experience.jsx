@@ -34,11 +34,11 @@ const Experience = () => {
   return (
     <div className="bg-gradient-to-r from-gray-300 to-red-400 min-h-screen md:min-h-0 flex flex-col pb-10 border-t">
       <section
-        className="lg:px-32 md:px-16 px-5 lg:mt-20 md:mt-14 mt-10"
+        className="lg:px-32 md:px-16 px-5 lg:mt-20 md:mt-14 mt-5"
         id="Experience"
       >
         <motion.h2
-          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-10 text-center drop-shadow-lg lg:mt-0 mt-10"
+          className="font-lora lg:text-5xl md:text-4xl text-3xl lg:mb-20 mb-10 text-center drop-shadow-lg "
           initial="hidden"
           animate="visible"
           variants={flipVariant}
@@ -50,7 +50,7 @@ const Experience = () => {
           {experienceData.map((experience, index) => (
             <motion.div
               key={index}
-              className="mb-10 ml-8 "
+              className="mb-10 ml-8 lg:mt-0 mt-20 shadow-lg rounded-lg  transform transition duration-200 hover:shadow-2xl"
               initial="hidden"
               animate="visible"
               variants={flipVariant}
