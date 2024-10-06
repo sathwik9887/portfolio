@@ -34,7 +34,7 @@ const Contact = () => {
             animate="visible"
             variants={flipVariant}
           >
-            <h2 className="font-lora text-lg lg:text-4xl text-gray-800 mb-6">
+            <h2 className="font-lora text-lg lg:text-4xl text-gray-800 mb-6 font-semibold">
               Let’s Collaborate <br /> And Create Your Dream Project
             </h2>
 
