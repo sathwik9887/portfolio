@@ -51,7 +51,7 @@ const Navbar = () => {
     {
       id: 2,
       icon: <FaLinkedin />,
-      link: "https://www.linkedin.com/in/sathwik-nayak-a188ab131/",
+      link: "https://www.linkedin.com/in/sathwik-nayak/",
     },
     {
       id: 3,
@@ -86,6 +86,7 @@ const Navbar = () => {
       >
         {isNavOpen ? <LuX size={25} /> : <LuMenu size={25} />}
       </button>
+
       <div className="lg:flex space-x-4 hidden">
         {icons.map((iconObj) => (
           <div
@@ -125,6 +126,7 @@ const Navbar = () => {
               </button>
             ))}
           </ul>
+
           <div className="flex space-x-4 justify-center items-center mt-10">
             {icons.map((iconObj) => (
               <div

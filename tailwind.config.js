@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -10,14 +11,12 @@ module.exports = {
       backgroundImage: {
         "portfolio-bg": "url('/src/assets/bg.jpg')",
       },
-      variants: {
-        extend: {
-          ringWidth: ["focus"],
-          ringColor: ["focus"],
-        },
-      },
       blur: {
         tiny: "1px",
+      },
+      colors: {
+        "dark-bg": "#2d2d2d",
+        "dark-text": "#ffffff",
       },
     },
   },

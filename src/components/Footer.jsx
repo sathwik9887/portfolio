@@ -19,7 +19,7 @@ const socialLinks = [
     label: "Github",
   },
   {
-    href: "https://www.linkedin.com/in/sathwik-nayak-a188ab131/",
+    href: "https://www.linkedin.com/in/sathwik-nayak/",
     icon: <FaLinkedin />,
     label: "LinkedIn",
   },
