@@ -4,7 +4,7 @@ import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
 // import Project4 from "../assets/Project4.png";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -27,16 +27,19 @@ const Projects = () => {
       title: "Landwind Website",
       link: "https://landwind-s.vercel.app/",
       img: Project1,
+      github: "https://github.com/sathwik9887/landwind",
     },
     {
       title: "Grocery Landing Page",
       link: "https://grocerylandingpage.vercel.app/",
       img: Project2,
+      github: "https://github.com/sathwik9887/grocerylandingpage",
     },
     {
       title: "Dressy Dazzles",
       link: "https://dressy-dazzle.vercel.app/",
       img: Project3,
+      github: "",
     },
   ];
 
@@ -81,7 +84,16 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaExternalLinkAlt className="lg:text-2xl md:text-2xl text-lg text-black" />
+                    <div className="flex items-center space-x-5">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub className="lg:text-2xl md:text-2xl text-lg text-black" />
+                      </a>
+                      <FaExternalLinkAlt className="lg:text-2xl md:text-2xl text-lg text-black" />
+                    </div>
                   </a>
                 </div>
               </div>

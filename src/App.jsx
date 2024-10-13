@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import ReactGA from "react-ga4";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
