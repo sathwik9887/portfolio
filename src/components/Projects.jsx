@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
+
 // import Project4 from "../assets/Project4.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
@@ -74,6 +75,7 @@ const Projects = () => {
                 alt={`Project ${index + 1} Image`}
                 className="object-cover max-w-full h-auto transition-transform duration-300 ease-in-out transform group-hover:scale-110"
               />
+
               <div className="absolute inset-0 bg-slate-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex p-5 pb-10 bg-gradient-to-tr from-stone-200 to-transparent">
                 <div className="flex justify-between w-full items-center absolute bottom-5 right-0 px-5">
                   <p className="font-lora lg:text-2xl md:text-2xl text-lg text-black font-semibold">

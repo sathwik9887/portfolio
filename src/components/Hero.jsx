@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { MdFileDownload } from "react-icons/md";
+import Pic from "../assets/Pic.jpg";
 
 const Hero = () => {
   const flipVariant = {
@@ -71,7 +72,11 @@ const Hero = () => {
                 variants={flipVariant}
               >
                 <MdFileDownload className="mr-2 lg:text-3xl text-white text-lg" />
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://drive.google.com/file/d/1aUyJiVIiLi6O6THysvj2n5Va_RdCIq_I/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <p className="lg:text-lg font-bold text-white font-lora md:text-base text-sm">
                     Download Resume
                   </p>
@@ -89,7 +94,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.img
-            src="https://firebasestorage.googleapis.com/v0/b/hello-2ba10.appspot.com/o/Pic.png?alt=media&token=4975300b-f7e4-47bc-92c0-6536b0cdead0"
+            src={Pic}
             alt="Pic"
             width={350}
             className="object-cover object-center  rounded-l-full rounded-r-full  mx-auto  transition-transform duration-300 ease-in-out transform hover:scale-110"
