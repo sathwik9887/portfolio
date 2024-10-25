@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import ReactGA from "react-ga4";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -16,11 +15,19 @@ import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     ReactGA.initialize("G-DKBM2Q4Z5C");
-
     ReactGA.send({
       hitType: "pageview",
       page: window.location.pathname + window.location.search,
     });
+
+    const tidioScript = document.createElement("script");
+    tidioScript.src = "//code.tidio.co/c6nnletp9znsnrqxsr97lqslidaqy6xe.js";
+    tidioScript.async = true;
+    document.body.appendChild(tidioScript);
+
+    return () => {
+      document.body.removeChild(tidioScript);
+    };
   }, []);
 
   return (

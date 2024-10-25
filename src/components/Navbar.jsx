@@ -3,6 +3,8 @@ import Logo from "../assets/SN.svg";
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { LuMenu, LuX } from "react-icons/lu";
+import { MdOutlineDarkMode } from "react-icons/md";
+import { MdOutlineLightMode } from "react-icons/md";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -98,6 +100,7 @@ const Navbar = () => {
             </a>
           </div>
         ))}
+        <MdOutlineDarkMode className="text-xl" />
       </div>
       {isNavOpen && (
         <div className="fixed top-0 right-0 w-full h-full  text-white transition-transform duration-700 transform translate-x-0 bg-gradient-to-r from-gray-300 to-red-400 shadow-2xl overflow-hidden">
