@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
+import Project4 from "../assets/Project4.png";
 
 // import Project4 from "../assets/Project4.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
@@ -41,6 +42,12 @@ const Projects = () => {
       link: "https://dressy-dazzle.vercel.app/",
       img: Project3,
       github: "",
+    },
+    {
+      title: "Netflix",
+      link: "https://netflix69.vercel.app/",
+      img: Project4,
+      github: "https://github.com/sathwik9887/netflix",
     },
   ];
 
